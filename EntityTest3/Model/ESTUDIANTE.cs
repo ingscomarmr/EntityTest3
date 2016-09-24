@@ -8,11 +8,12 @@ namespace EntityTest3.Model
     using System.Linq;
     using System.Data.Entity;
 
+    //tabla
     [Table("DEV_001.ESTUDIANTE")]
     public partial class ESTUDIANTE
     {
        
-        
+        //la sequence se tuvo que meter por medio de un trigger
         public decimal ID { get; set; }
 
         [Required]

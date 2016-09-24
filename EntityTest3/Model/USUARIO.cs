@@ -5,7 +5,7 @@ namespace EntityTest3.Model
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
-
+    //tabla
     [Table("DEV_001.USUARIO")]
     public partial class USUARIO
     {        
