@@ -10,7 +10,7 @@ namespace EntityTest3.Model
         public Dev001Context()
             : base("name=Dev001Context")
         {
-        }
+        }//
 
         public virtual DbSet<ESTUDIANTE> ESTUDIANTE { get; set; }
         public virtual DbSet<USUARIO> USUARIO { get; set; }
